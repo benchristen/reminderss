@@ -1,0 +1,40 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/actionpack/test/activerecord
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+active_record_store_test.rb
+file
+
+
+
+
+2008-07-25T00:43:32.000000Z
+48c7480b53d0788a4a88bf97e41895bd
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+render_partial_with_record_identification_test.rb
+file
+
+
+
+
+2008-07-25T00:43:32.000000Z
+7178a1eddfec0c72ddbb1c936a7c4c6b
+2008-07-25T04:47:47.559265Z
+16
+ben
+

@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/samples
+END
+ex_cpvcard.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/samples/ex_cpvcard.rb
+END
+ics-dump.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/samples/ics-dump.rb
+END
+vcf-dump.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/samples/vcf-dump.rb
+END
+ex_mkvcard.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/samples/ex_mkvcard.rb
+END
+README.mutt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/samples/README.mutt
+END
+ab-query.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/samples/ab-query.rb
+END
+vcf-to-mutt.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/samples/vcf-to-mutt.rb
+END
+vcf-lines.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/samples/vcf-lines.rb
+END
+rrule.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/samples/rrule.rb
+END
+tabbed-file-to-vcf.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/samples/tabbed-file-to-vcf.rb
+END
+ics-to-rss.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/samples/ics-to-rss.rb
+END
+ex_get_vcard_photo.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/samples/ex_get_vcard_photo.rb
+END
+mutt-aliases-to-vcf.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/samples/mutt-aliases-to-vcf.rb
+END
+reminder.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/samples/reminder.rb
+END
+ex_mkyourown.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/samples/ex_mkyourown.rb
+END
+cmd-itip.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/samples/cmd-itip.rb
+END
+osx-wrappers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/samples/osx-wrappers.rb
+END
+vcf-to-ics.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/samples/vcf-to-ics.rb
+END
+ex_mkv21vcard.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/samples/ex_mkv21vcard.rb
+END

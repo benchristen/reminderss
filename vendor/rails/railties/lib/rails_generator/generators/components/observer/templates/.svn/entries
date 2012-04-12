@@ -1,0 +1,40 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/railties/lib/rails_generator/generators/components/observer/templates
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+unit_test.rb
+file
+
+
+
+
+2008-07-25T00:43:33.000000Z
+9c16812e94467f29ae75f6a4c18f28a6
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+observer.rb
+file
+
+
+
+
+2008-07-25T00:43:33.000000Z
+4c895d9eb68003006e79b6e5e7619b37
+2008-07-25T04:47:47.559265Z
+16
+ben
+

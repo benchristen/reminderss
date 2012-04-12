@@ -1,0 +1,28 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/activesupport/lib/active_support/vendor
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+xml-simple-1.0.11
+dir
+
+builder-2.1.2
+dir
+
+memcache-client-1.5.0
+dir
+
+tzinfo-0.3.8
+dir
+

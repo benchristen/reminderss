@@ -1,0 +1,103 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/railties
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+helpers
+dir
+
+Rakefile
+file
+
+
+
+
+2008-07-25T00:43:32.000000Z
+b48b798e57de3f07242f9bb10033341a
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+html
+dir
+
+doc
+dir
+
+builtin
+dir
+
+lib
+dir
+
+CHANGELOG
+file
+
+
+
+
+2008-07-25T00:43:32.000000Z
+77ccbe61963d4b3e0b171252763423c5
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+dispatches
+dir
+
+environments
+dir
+
+bin
+dir
+
+configs
+dir
+
+fresh_rakefile
+file
+
+
+
+
+2008-07-25T00:43:32.000000Z
+17f2f134da4cd31ea095d5868ca89e86
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+MIT-LICENSE
+file
+
+
+
+
+2008-07-25T00:43:32.000000Z
+beb132f85b972e229852580d323b2981
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+README
+file
+
+
+
+
+2008-07-25T00:43:32.000000Z
+0cdf56769f20a2b73a929ac3ba633152
+2008-07-25T04:47:47.559265Z
+16
+ben
+

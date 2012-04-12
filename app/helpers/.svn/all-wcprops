@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/reminderss/!svn/ver/1/app/helpers
+END
+users_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/reminderss/!svn/ver/6/app/helpers/users_helper.rb
+END
+application_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/reminderss/!svn/ver/1/app/helpers/application_helper.rb
+END
+feed_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/reminderss/!svn/ver/1/app/helpers/feed_helper.rb
+END
+events_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/reminderss/!svn/ver/1/app/helpers/events_helper.rb
+END

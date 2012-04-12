@@ -1,0 +1,52 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/activesupport/lib/active_support/multibyte/handlers
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+utf8_handler.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+8458b55c8db61de1fb8fbb01505b632d
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+passthru_handler.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+51f28943e579af3c7b8bb30a9fe1c4d8
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+utf8_handler_proc.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+5180cabeb3c731b9e6a91f48698fdbe7
+2008-07-25T04:47:47.559265Z
+16
+ben
+

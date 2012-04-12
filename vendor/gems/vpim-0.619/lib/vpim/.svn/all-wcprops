@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim
+END
+date.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/date.rb
+END
+enumerator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/enumerator.rb
+END
+icalendar.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/icalendar.rb
+END
+field.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/field.rb
+END
+version.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/version.rb
+END
+duration.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/duration.rb
+END
+address.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/address.rb
+END
+rfc2425.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/rfc2425.rb
+END
+attachment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/attachment.rb
+END
+rrule.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/rrule.rb
+END
+dirinfo.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/dirinfo.rb
+END
+vtodo.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/vtodo.rb
+END
+time.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/time.rb
+END
+vcard.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/vcard.rb
+END
+vjournal.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/vjournal.rb
+END
+repo.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/repo.rb
+END
+vevent.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/vevent.rb
+END
+vpim.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/vpim.rb
+END

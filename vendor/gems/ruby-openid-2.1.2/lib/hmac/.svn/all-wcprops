@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/hmac
+END
+sha2.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/hmac/sha2.rb
+END
+hmac.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/hmac/hmac.rb
+END
+sha1.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/hmac/sha1.rb
+END

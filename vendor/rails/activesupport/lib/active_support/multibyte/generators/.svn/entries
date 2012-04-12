@@ -1,0 +1,28 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/activesupport/lib/active_support/multibyte/generators
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+generate_tables.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+4b323b79afc4f1d6e0f805f90d63c02e
+2008-07-25T04:47:47.559265Z
+16
+ben
+

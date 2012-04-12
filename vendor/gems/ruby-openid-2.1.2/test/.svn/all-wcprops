@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test
+END
+test_discover.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_discover.rb
+END
+util.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/util.rb
+END
+test_xrds.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_xrds.rb
+END
+test_trustroot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_trustroot.rb
+END
+test_pape.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_pape.rb
+END
+test_urinorm.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_urinorm.rb
+END
+test_accept.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_accept.rb
+END
+test_yadis_discovery.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_yadis_discovery.rb
+END
+test_discovery_manager.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_discovery_manager.rb
+END
+test_checkid_request.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_checkid_request.rb
+END
+test_server.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_server.rb
+END
+test_idres.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_idres.rb
+END
+test_extras.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_extras.rb
+END
+test_openid_yadis.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_openid_yadis.rb
+END
+test_associationmanager.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_associationmanager.rb
+END
+test_extension.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_extension.rb
+END
+test_xrires.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_xrires.rb
+END
+test_util.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_util.rb
+END
+testutil.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/testutil.rb
+END
+test_stores.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_stores.rb
+END
+test_responses.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_responses.rb
+END
+test_message.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_message.rb
+END
+test_kvpost.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_kvpost.rb
+END
+test_linkparse.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_linkparse.rb
+END
+test_consumer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_consumer.rb
+END
+test_dh.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_dh.rb
+END
+test_parsehtml.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_parsehtml.rb
+END
+test_cryptutil.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_cryptutil.rb
+END
+test_sreg.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_sreg.rb
+END
+test_nonce.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_nonce.rb
+END
+test_xri.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_xri.rb
+END
+test_fetchers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_fetchers.rb
+END
+test_kvform.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_kvform.rb
+END
+test_ax.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_ax.rb
+END
+test_filters.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_filters.rb
+END
+discoverdata.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/discoverdata.rb
+END
+test_association.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/test_association.rb
+END

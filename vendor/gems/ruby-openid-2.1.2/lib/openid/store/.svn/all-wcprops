@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/store
+END
+interface.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/store/interface.rb
+END
+nonce.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/store/nonce.rb
+END
+filesystem.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/store/filesystem.rb
+END
+memory.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/store/memory.rb
+END

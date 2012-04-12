@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/reminderss/!svn/ver/16/vendor/plugins/open_id_authentication/lib/open_id_authentication
+END
+db_store.rb
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/reminderss/!svn/ver/16/vendor/plugins/open_id_authentication/lib/open_id_authentication/db_store.rb
+END
+nonce.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/reminderss/!svn/ver/16/vendor/plugins/open_id_authentication/lib/open_id_authentication/nonce.rb
+END
+association.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/reminderss/!svn/ver/16/vendor/plugins/open_id_authentication/lib/open_id_authentication/association.rb
+END

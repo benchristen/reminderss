@@ -1,0 +1,64 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/gems/ruby-openid-2.1.2/examples/rails_openid/app/controllers
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+consumer_controller.rb
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+f8a0198f084c80531fa900b7eb6292b5
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+application.rb
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+062afd7e8ae707a9209a42fd217363ec
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+server_controller.rb
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+16bc58583328a00544e82306e185ed47
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+login_controller.rb
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+ac116a837860180a5b759c21126427c0
+2008-07-25T04:47:47.559265Z
+16
+ben
+

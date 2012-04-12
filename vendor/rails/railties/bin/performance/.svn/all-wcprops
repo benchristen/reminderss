@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/reminderss/!svn/ver/16/vendor/rails/railties/bin/performance
+END
+benchmarker
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/reminderss/!svn/ver/16/vendor/rails/railties/bin/performance/benchmarker
+END
+profiler
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/reminderss/!svn/ver/16/vendor/rails/railties/bin/performance/profiler
+END
+request
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/reminderss/!svn/ver/16/vendor/rails/railties/bin/performance/request
+END

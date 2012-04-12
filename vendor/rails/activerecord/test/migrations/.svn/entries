@@ -1,0 +1,34 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/activerecord/test/migrations
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+valid
+dir
+
+interleaved
+dir
+
+missing
+dir
+
+duplicate
+dir
+
+duplicate_names
+dir
+
+decimal
+dir
+

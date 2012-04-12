@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/reminderss/!svn/ver/16/vendor/rails/activesupport/lib/active_support/core_ext/date
+END
+behavior.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/reminderss/!svn/ver/16/vendor/rails/activesupport/lib/active_support/core_ext/date/behavior.rb
+END
+calculations.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/reminderss/!svn/ver/16/vendor/rails/activesupport/lib/active_support/core_ext/date/calculations.rb
+END
+conversions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/reminderss/!svn/ver/16/vendor/rails/activesupport/lib/active_support/core_ext/date/conversions.rb
+END

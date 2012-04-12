@@ -1,0 +1,40 @@
+8
+
+dir
+1
+http://svn.monathecat.com/reminderss/app/models
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-17T06:49:58.961398Z
+1
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+user.rb
+file
+26
+
+
+
+2008-07-30T22:53:39.000000Z
+0d5058d3f8991dd797aa18df21843152
+2008-07-30T23:00:30.680114Z
+26
+ben
+
+event.rb
+file
+12
+
+
+
+2008-07-24T22:25:11.000000Z
+b65393b876b86d123333d5ad5cc83ffd
+2008-07-24T22:44:07.440472Z
+12
+ben
+

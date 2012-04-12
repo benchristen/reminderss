@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/consumer
+END
+html_parse.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/consumer/html_parse.rb
+END
+discovery_manager.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/consumer/discovery_manager.rb
+END
+responses.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/consumer/responses.rb
+END
+checkid_request.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/consumer/checkid_request.rb
+END
+idres.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/consumer/idres.rb
+END
+associationmanager.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/consumer/associationmanager.rb
+END
+discovery.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/consumer/discovery.rb
+END

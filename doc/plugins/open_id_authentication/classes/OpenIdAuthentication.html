@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Module: OpenIdAuthentication</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <link rel="stylesheet" href=".././rdoc-style.css" type="text/css" media="screen" />
+  <script type="text/javascript">
+  // <![CDATA[
+
+  function popupCode( url ) {
+    window.open(url, "Code", "resizable=yes,scrollbars=yes,toolbar=no,status=no,height=150,width=400")
+  }
+
+  function toggleCode( id ) {
+    if ( document.getElementById )
+      elem = document.getElementById( id );
+    else if ( document.all )
+      elem = eval( "document.all." + id );
+    else
+      return false;
+
+    elemStyle = elem.style;
+    
+    if ( elemStyle.display != "block" ) {
+      elemStyle.display = "block"
+    } else {
+      elemStyle.display = "none"
+    }
+
+    return true;
+  }
+  
+  // Make codeblocks hidden by default
+  document.writeln( "<style type=\"text/css\">div.method-source-code { display: none }</style>" )
+  
+  // ]]>
+  </script>
+
+</head>
+<body>
+
+
+
+    <div id="classHeader">
+        <table class="header-table">
+        <tr class="top-aligned-row">
+          <td><strong>Module</strong></td>
+          <td class="class-name-in-header">OpenIdAuthentication</td>
+        </tr>
+        <tr class="top-aligned-row">
+            <td><strong>In:</strong></td>
+            <td>
+                <a href="../files/vendor/plugins/open_id_authentication/lib/open_id_authentication/association_rb.html">
+                vendor/plugins/open_id_authentication/lib/open_id_authentication/association.rb
+                </a>
+        <br />
+                <a href="../files/vendor/plugins/open_id_authentication/lib/open_id_authentication/db_store_rb.html">
+                vendor/plugins/open_id_authentication/lib/open_id_authentication/db_store.rb
+                </a>
+        <br />
+                <a href="../files/vendor/plugins/open_id_authentication/lib/open_id_authentication/nonce_rb.html">
+                vendor/plugins/open_id_authentication/lib/open_id_authentication/nonce.rb
+                </a>
+        <br />
+                <a href="../files/vendor/plugins/open_id_authentication/lib/open_id_authentication_rb.html">
+                vendor/plugins/open_id_authentication/lib/open_id_authentication.rb
+                </a>
+        <br />
+            </td>
+        </tr>
+
+        </table>
+    </div>
+  <!-- banner header -->
+
+  <div id="bodyContent">
+
+
+
+  <div id="contextContent">
+
+
+
+   </div>
+
+    <div id="method-list">
+      <h3 class="section-bar">Methods</h3>
+
+      <div class="name-list">
+      <a href="#M000007">authenticate_with_open_id</a>&nbsp;&nbsp;
+      <a href="#M000005">normalize_url</a>&nbsp;&nbsp;
+      <a href="#M000004">normalize_url</a>&nbsp;&nbsp;
+      <a href="#M000003">store</a>&nbsp;&nbsp;
+      <a href="#M000001">store</a>&nbsp;&nbsp;
+      <a href="#M000002">store=</a>&nbsp;&nbsp;
+      <a href="#M000006">using_open_id?</a>&nbsp;&nbsp;
+      </div>
+    </div>
+
+  </div>
+
+
+    <!-- if includes -->
+
+    <div id="section">
+
+    <div id="class-list">
+      <h3 class="section-bar">Classes and Modules</h3>
+
+      Class <a href="OpenIdAuthentication/Association.html" class="link">OpenIdAuthentication::Association</a><br />
+Class <a href="OpenIdAuthentication/DbStore.html" class="link">OpenIdAuthentication::DbStore</a><br />
+Class <a href="OpenIdAuthentication/InvalidOpenId.html" class="link">OpenIdAuthentication::InvalidOpenId</a><br />
+Class <a href="OpenIdAuthentication/Nonce.html" class="link">OpenIdAuthentication::Nonce</a><br />
+Class <a href="OpenIdAuthentication/Result.html" class="link">OpenIdAuthentication::Result</a><br />
+
+    </div>
+
+    <div id="constants-list">
+      <h3 class="section-bar">Constants</h3>
+
+      <div class="name-list">
+        <table summary="Constants">
+        <tr class="top-aligned-row context-row">
+          <td class="context-item-name">OPEN_ID_AUTHENTICATION_DIR</td>
+          <td>=</td>
+          <td class="context-item-value">RAILS_ROOT + &quot;/tmp/openids&quot;</td>
+        </tr>
+        </table>
+      </div>
+    </div>
+
+
+
+      
+
+
+    <!-- if method_list -->
+    <div id="methods">
+      <h3 class="section-bar">Public Class methods</h3>
+
+      <div id="method-M000004" class="method-detail">
+        <a name="M000004"></a>
+
+        <div class="method-heading">
+          <a href="#M000004" class="method-signature">
+          <span class="method-name">normalize_url</span><span class="method-args">(url)</span>
+          </a>
+        </div>
+      
+        <div class="method-description">
+          <p><a class="source-toggle" href="#"
+            onclick="toggleCode('M000004-source');return false;">[Source]</a></p>
+          <div class="method-source-code" id="M000004-source">
+<pre>
+    <span class="ruby-comment cmt"># File vendor/plugins/open_id_authentication/lib/open_id_authentication.rb, line 64</span>
+64:   <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">normalize_url</span>(<span class="ruby-identifier">url</span>)
+65:     <span class="ruby-identifier">uri</span> = <span class="ruby-constant">URI</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-identifier">url</span>.<span class="ruby-identifier">to_s</span>.<span class="ruby-identifier">strip</span>)
+66:     <span class="ruby-identifier">uri</span> = <span class="ruby-constant">URI</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-node">&quot;http://#{uri}&quot;</span>) <span class="ruby-keyword kw">unless</span> <span class="ruby-identifier">uri</span>.<span class="ruby-identifier">scheme</span>
+67:     <span class="ruby-identifier">uri</span>.<span class="ruby-identifier">scheme</span> = <span class="ruby-identifier">uri</span>.<span class="ruby-identifier">scheme</span>.<span class="ruby-identifier">downcase</span>  <span class="ruby-comment cmt"># URI should do this</span>
+68:     <span class="ruby-identifier">uri</span>.<span class="ruby-identifier">normalize</span>.<span class="ruby-identifier">to_s</span>
+69:   <span class="ruby-keyword kw">rescue</span> <span class="ruby-constant">URI</span><span class="ruby-operator">::</span><span class="ruby-constant">InvalidURIError</span>
+70:     <span class="ruby-identifier">raise</span> <span class="ruby-constant">InvalidOpenId</span>.<span class="ruby-identifier">new</span>(<span class="ruby-node">&quot;#{url} is not an OpenID URL&quot;</span>)
+71:   <span class="ruby-keyword kw">end</span>
+</pre>
+          </div>
+        </div>
+      </div>
+
+      <div id="method-M000001" class="method-detail">
+        <a name="M000001"></a>
+
+        <div class="method-heading">
+          <a href="#M000001" class="method-signature">
+          <span class="method-name">store</span><span class="method-args">()</span>
+          </a>
+        </div>
+      
+        <div class="method-description">
+          <p><a class="source-toggle" href="#"
+            onclick="toggleCode('M000001-source');return false;">[Source]</a></p>
+          <div class="method-source-code" id="M000001-source">
+<pre>
+    <span class="ruby-comment cmt"># File vendor/plugins/open_id_authentication/lib/open_id_authentication.rb, line 8</span>
+ 8:   <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">store</span>
+ 9:     <span class="ruby-ivar">@@store</span>
+10:   <span class="ruby-keyword kw">end</span>
+</pre>
+          </div>
+        </div>
+      </div>
+
+      <div id="method-M000002" class="method-detail">
+        <a name="M000002"></a>
+
+        <div class="method-heading">
+          <a href="#M000002" class="method-signature">
+          <span class="method-name">store=</span><span class="method-args">(value)</span>
+          </a>
+        </div>
+      
+        <div class="method-description">
+          <p><a class="source-toggle" href="#"
+            onclick="toggleCode('M000002-source');return false;">[Source]</a></p>
+          <div class="method-source-code" id="M000002-source">
+<pre>
+    <span class="ruby-comment cmt"># File vendor/plugins/open_id_authentication/lib/open_id_authentication.rb, line 12</span>
+12:   <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">store=</span>(<span class="ruby-identifier">value</span>)
+13:     <span class="ruby-ivar">@@store</span> = <span class="ruby-identifier">value</span>
+14:   <span class="ruby-keyword kw">end</span>
+</pre>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="section-bar">Public Instance methods</h3>
+
+      <div id="method-M000003" class="method-detail">
+        <a name="M000003"></a>
+
+        <div class="method-heading">
+          <a href="#M000003" class="method-signature">
+          <span class="method-name">store</span><span class="method-args">()</span>
+          </a>
+        </div>
+      
+        <div class="method-description">
+          <p><a class="source-toggle" href="#"
+            onclick="toggleCode('M000003-source');return false;">[Source]</a></p>
+          <div class="method-source-code" id="M000003-source">
+<pre>
+    <span class="ruby-comment cmt"># File vendor/plugins/open_id_authentication/lib/open_id_authentication.rb, line 18</span>
+18:   <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">store</span>
+19:     <span class="ruby-constant">OpenIdAuthentication</span>.<span class="ruby-identifier">store</span>
+20:   <span class="ruby-keyword kw">end</span>
+</pre>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="section-bar">Protected Instance methods</h3>
+
+      <div id="method-M000007" class="method-detail">
+        <a name="M000007"></a>
+
+        <div class="method-heading">
+          <a href="#M000007" class="method-signature">
+          <span class="method-name">authenticate_with_open_id</span><span class="method-args">(identity_url = params[:openid_url], options = {}, &amp;block)</span>
+          </a>
+        </div>
+      
+        <div class="method-description">
+          <p><a class="source-toggle" href="#"
+            onclick="toggleCode('M000007-source');return false;">[Source]</a></p>
+          <div class="method-source-code" id="M000007-source">
+<pre>
+    <span class="ruby-comment cmt"># File vendor/plugins/open_id_authentication/lib/open_id_authentication.rb, line 84</span>
+84:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">authenticate_with_open_id</span>(<span class="ruby-identifier">identity_url</span> = <span class="ruby-identifier">params</span>[<span class="ruby-identifier">:openid_url</span>], <span class="ruby-identifier">options</span> = {}, <span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>) <span class="ruby-comment cmt">#:doc:</span>
+85:       <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">params</span>[<span class="ruby-identifier">:open_id_complete</span>].<span class="ruby-identifier">nil?</span>
+86:         <span class="ruby-identifier">begin_open_id_authentication</span>(<span class="ruby-identifier">normalize_url</span>(<span class="ruby-identifier">identity_url</span>), <span class="ruby-identifier">options</span>, <span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+87:       <span class="ruby-keyword kw">else</span>
+88:         <span class="ruby-identifier">complete_open_id_authentication</span>(<span class="ruby-operator">&amp;</span><span class="ruby-identifier">block</span>)
+89:       <span class="ruby-keyword kw">end</span>
+90:     <span class="ruby-keyword kw">end</span>
+</pre>
+          </div>
+        </div>
+      </div>
+
+      <div id="method-M000005" class="method-detail">
+        <a name="M000005"></a>
+
+        <div class="method-heading">
+          <a href="#M000005" class="method-signature">
+          <span class="method-name">normalize_url</span><span class="method-args">(url)</span>
+          </a>
+        </div>
+      
+        <div class="method-description">
+          <p><a class="source-toggle" href="#"
+            onclick="toggleCode('M000005-source');return false;">[Source]</a></p>
+          <div class="method-source-code" id="M000005-source">
+<pre>
+    <span class="ruby-comment cmt"># File vendor/plugins/open_id_authentication/lib/open_id_authentication.rb, line 74</span>
+74:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">normalize_url</span>(<span class="ruby-identifier">url</span>)
+75:       <span class="ruby-constant">OpenIdAuthentication</span>.<span class="ruby-identifier">normalize_url</span>(<span class="ruby-identifier">url</span>)
+76:     <span class="ruby-keyword kw">end</span>
+</pre>
+          </div>
+        </div>
+      </div>
+
+      <div id="method-M000006" class="method-detail">
+        <a name="M000006"></a>
+
+        <div class="method-heading">
+          <a href="#M000006" class="method-signature">
+          <span class="method-name">using_open_id?</span><span class="method-args">(identity_url = params[:openid_url])</span>
+          </a>
+        </div>
+      
+        <div class="method-description">
+          <p>
+The parameter name of &quot;openid_url&quot; is used rather than the Rails
+convention &quot;open_id_url&quot; because that&#8216;s what the
+specification dictates in order to get browser auto-complete working across
+sites
+</p>
+          <p><a class="source-toggle" href="#"
+            onclick="toggleCode('M000006-source');return false;">[Source]</a></p>
+          <div class="method-source-code" id="M000006-source">
+<pre>
+    <span class="ruby-comment cmt"># File vendor/plugins/open_id_authentication/lib/open_id_authentication.rb, line 80</span>
+80:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">using_open_id?</span>(<span class="ruby-identifier">identity_url</span> = <span class="ruby-identifier">params</span>[<span class="ruby-identifier">:openid_url</span>]) <span class="ruby-comment cmt">#:doc:</span>
+81:       <span class="ruby-operator">!</span><span class="ruby-identifier">identity_url</span>.<span class="ruby-identifier">blank?</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">params</span>[<span class="ruby-identifier">:open_id_complete</span>]
+82:     <span class="ruby-keyword kw">end</span>
+</pre>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+
+<div id="validator-badges">
+  <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+</div>
+
+</body>
+</html>

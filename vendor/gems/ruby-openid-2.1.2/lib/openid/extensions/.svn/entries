@@ -1,0 +1,52 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/gems/ruby-openid-2.1.2/lib/openid/extensions
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+sreg.rb
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+515de49052951140c026169d6c764c1a
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+pape.rb
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+697648d2d16ec3ae1753f17ec50917ca
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+ax.rb
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+02c9588fb8702919ed9cd845995981b0
+2008-07-25T04:47:47.559265Z
+16
+ben
+

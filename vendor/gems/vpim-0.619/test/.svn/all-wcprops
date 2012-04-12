@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/test
+END
+test_vcard.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/test/test_vcard.rb
+END
+test_field.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/test/test_field.rb
+END
+test_all.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/test/test_all.rb
+END
+test_ical.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/test/test_ical.rb
+END
+test_rrule.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/test/test_rrule.rb
+END
+test_dur.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/test/test_dur.rb
+END
+test_date.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/test/test_date.rb
+END

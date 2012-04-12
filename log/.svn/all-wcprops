@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/reminderss/!svn/ver/1/log
+END
+test.log
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/reminderss/!svn/ver/1/log/test.log
+END
+development.log
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/reminderss/!svn/ver/33/log/development.log
+END
+production.log
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/reminderss/!svn/ver/1/log/production.log
+END
+server.log
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/reminderss/!svn/ver/1/log/server.log
+END

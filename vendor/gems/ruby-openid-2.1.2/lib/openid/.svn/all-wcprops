@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid
+END
+util.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/util.rb
+END
+message.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/message.rb
+END
+trustroot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/trustroot.rb
+END
+kvpost.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/kvpost.rb
+END
+urinorm.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/urinorm.rb
+END
+dh.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/dh.rb
+END
+consumer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/consumer.rb
+END
+cryptutil.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/cryptutil.rb
+END
+fetchers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/fetchers.rb
+END
+kvform.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/kvform.rb
+END
+server.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/server.rb
+END
+extras.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/extras.rb
+END
+protocolerror.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/protocolerror.rb
+END
+extension.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/extension.rb
+END
+association.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/lib/openid/association.rb
+END

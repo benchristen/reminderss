@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_xrds
+END
+delegated-20060809-r1.xrds
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_xrds/delegated-20060809-r1.xrds
+END
+delegated-20060809-r2.xrds
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_xrds/delegated-20060809-r2.xrds
+END
+spoof1.xrds
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_xrds/spoof1.xrds
+END
+spoof2.xrds
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_xrds/spoof2.xrds
+END
+status222.xrds
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_xrds/status222.xrds
+END
+spoof3.xrds
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_xrds/spoof3.xrds
+END
+=j3h.2007.11.14.xrds
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_xrds/=j3h.2007.11.14.xrds
+END
+ref.xrds
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_xrds/ref.xrds
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_xrds/README
+END
+sometimesprefix.xrds
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_xrds/sometimesprefix.xrds
+END
+prefixsometimes.xrds
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_xrds/prefixsometimes.xrds
+END
+delegated-20060809.xrds
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_xrds/delegated-20060809.xrds
+END
+no-xrd.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_xrds/no-xrd.xml
+END
+valid-populated-xrds.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_xrds/valid-populated-xrds.xml
+END
+not-xrds.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_xrds/not-xrds.xml
+END
+subsegments.xrds
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_xrds/subsegments.xrds
+END

@@ -1,0 +1,27 @@
+<%
+require 'rss/maker'
+
+@rss = RSS::Maker.make("2.0") do |maker|
+  maker.channel.title = "#{@current_user.name}'s reminderss rss feed"
+  maker.channel.link = "http://reminderss.com"
+  maker.channel.description = "retro browsing for the rss reader era"
+  maker.channel.language = "en-US"
+
+  # These are required, or RSS::Maker silently returns nil!
+  maker.image.url = "http://reminderss.com/images/reminderss.png"
+  maker.image.title = "reminderss"
+
+  @events.each do |event|
+          item = maker.items.new_item
+          item.title = event.url
+          item.link =  event.url
+          item.guid.content = event.url
+          item.guid.content += '#'
+          item.guid.content += event.dtstart.to_s(:number)
+          item.guid.isPermaLink = "false"
+          item.description = "#{event.description} - reminderss - #{event.dtstart.to_s(:long)}"
+  end
+end
+
+-%>
+<%= @rss.to_s %>

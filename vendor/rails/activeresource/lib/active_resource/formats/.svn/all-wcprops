@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/reminderss/!svn/ver/16/vendor/rails/activeresource/lib/active_resource/formats
+END
+json_format.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/reminderss/!svn/ver/16/vendor/rails/activeresource/lib/active_resource/formats/json_format.rb
+END
+xml_format.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/reminderss/!svn/ver/16/vendor/rails/activeresource/lib/active_resource/formats/xml_format.rb
+END

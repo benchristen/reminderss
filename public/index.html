@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>reminderss - retro browsing for the rss reader era</title>
+<link rel="stylesheet" href="/stylesheets/master.css" type="text/css" media="screen" title="master css" charset="utf-8" /> 
+	<script type="text/javascript" src="javascripts/prototype.js"></script>
+    <script type="text/javascript" src="javascripts/effects.js"></script>
+
+  </head>
+  <body>
+    <div id="page">
+      <div id="sidebar">
+        <ul id="sidebar-items">
+	      <li>
+	        <h3>Your Events</h3>
+	        <ul class="links">
+	          <li><a href="/events">add/edit Events</a></li>
+	        </ul>
+	      </li>
+	      <li>
+	        <h3>Bookmarklet</h3>
+	        <ul class="links">
+				<li>Drag the link below to your bookmarks toolbar</li>
+				<li><a href="javascript:(function(){open('http://reminderss.com/events/new?event_url='+encodeURIComponent(location.href)+'&event_description='+encodeURIComponent(document.title),'reminderss','toolbar=no,width=700,height=400')})()">reminderss this!</a></li>
+	        </ul>
+	      </li>
+          <li>
+            <h3>Login and Registration</h3>
+            <ul class="links">
+              <li><a href="/session/new">Login/Register</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div id="content">
+        <div id="header">
+		  <a href="/index"><img src="/images/reminderss.png" height=100px width=100px style="float:left;margin:0 20px 0 10px" border="0"></a>
+          <h1>reminderss!</h1>
+		  <h3>retro browsing for the rss reader era</h3>
+		  <h5>and a project to help me learn Ruby on Rails</h5>	
+        </div>
+
+        <div id="about">
+SUPER ALPHA - BEWARE, but HAVE FUN!<br />
+<a href="http://reminderss.com/feed/benchristen/">check out my reminderss events</a>
+          <div id="about-content" style="display: none"></div>
+        </div>
+        
+        <div id="getting-started">
+          <h2>Three possible use-cases for reminderss:</h2>
+          
+          <ol>          
+            <li>
+              <h2>Sites that don't have RSS, but should</h2>
+              <p>Can't subscribe?  Set a reminderss, so that you can return to the site at a later date</p>
+            </li>
+            
+            <li>
+              <h2>Sites you want to browse the old-fashioned way</h2>
+              <p>The rss feed may not be exactly what you want, or too much data, or you just enjoy viewing the page in its layout glory</p>
+            </li>
+
+            <li>
+              <h2>Reminders</h2>
+              <p>You need to buy milk, and you want to be reminded of this in your RSS Reader of choice.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+      
+	<div id="footer">reminderss &copy; 2008 - super alpha - your data may be deleted, use at your own risk</div>
+    </div>
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	var pageTracker = _gat._getTracker("UA-74714-5");
+	pageTracker._initData();
+	pageTracker._trackPageview();
+	</script>
+  </body>
+</html>

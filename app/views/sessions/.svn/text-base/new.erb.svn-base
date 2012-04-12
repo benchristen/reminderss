@@ -1,0 +1,20 @@
+<% form_tag(session_url) do %>
+
+<h3>Login/Registration</h3>
+    OpenID:
+    <%= text_field_tag "openid_url", params[:openid_url] %>
+  
+    <%= submit_tag 'Sign in!' %>
+
+    <script type="text/javascript"
+            charset="utf-8"
+            id="__openidselector"
+            src="https://www.idselector.com/selector/3aec1a0256465a33912eeead2e2b21712ae4ece2"></script>
+
+<%
+#<div><a href="https://www.myopenid.com/signup?affiliate_id=14426">Get an OpenID with myOpenID!</a></div>
+%>
+
+<div>If you don't have an account at reminderss, sign-in to create one</div>
+  
+<% end %>

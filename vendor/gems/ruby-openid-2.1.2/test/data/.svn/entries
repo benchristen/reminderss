@@ -1,0 +1,130 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/gems/ruby-openid-2.1.2/test/data
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+test_xrds
+dir
+
+trustroot.txt
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+67a287fb427b50fa0aa773dbd3d1d963
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+linkparse.txt
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+518c2bd01e21869e9dd33b64b1cf9d05
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+example-xrds.xml
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+de3181e7802af66ac37ba4b48a6c3e3f
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+dh.txt
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+33f9dc79395858942a96c221cf27f5ee
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+urinorm.txt
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+2dfb2c4c69186db972b2034bdf7abd7d
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+test1-discover.txt
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+b31010382c9ef88b8c845ce22692871d
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+n2b64
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+99f5e8630b90979af598aabfc33bf5a1
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+test1-parsehtml.txt
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+d1138c1018fd24c13924104d0d330c1d
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+accept.txt
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+9a048bdc8f8d8112dcfac7b3c76d31be
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+test_discover
+dir
+

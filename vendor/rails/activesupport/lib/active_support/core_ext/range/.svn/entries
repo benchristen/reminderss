@@ -1,0 +1,64 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/activesupport/lib/active_support/core_ext/range
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+include_range.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+4560f67a3986896b3cb5ab7ba09266ba
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+conversions.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+abb8d50e6201f231d2939eba6f4d1ab7
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+overlaps.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+d94729c63cd3f0bc24135bc19e9bcf83
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+blockless_step.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+a9de4e6d1f0d713e89dee158fb66fdd2
+2008-07-25T04:47:47.559265Z
+16
+ben
+

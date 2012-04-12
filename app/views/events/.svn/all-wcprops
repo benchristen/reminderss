@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/reminderss/!svn/ver/1/app/views/events
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/reminderss/!svn/ver/10/app/views/events/edit.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/reminderss/!svn/ver/25/app/views/events/index.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/reminderss/!svn/ver/10/app/views/events/new.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/reminderss/!svn/ver/5/app/views/events/show.html.erb
+END

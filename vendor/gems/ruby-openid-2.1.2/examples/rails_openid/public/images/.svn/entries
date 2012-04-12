@@ -1,0 +1,29 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/gems/ruby-openid-2.1.2/examples/rails_openid/public/images
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+openid_login_bg.gif
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+032a66df4adf284203e91af0bfcb6a73
+2008-07-25T04:47:47.559265Z
+16
+ben
+has-props
+

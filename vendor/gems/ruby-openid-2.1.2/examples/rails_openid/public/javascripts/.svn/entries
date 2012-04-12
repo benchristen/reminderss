@@ -1,0 +1,64 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/gems/ruby-openid-2.1.2/examples/rails_openid/public/javascripts
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+prototype.js
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+ec266084ece29ede795db38c9c8cbf3d
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+effects.js
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+605714e775e00553107917f954912b8b
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+dragdrop.js
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+7d7b1fc58236f17167b14d10c9009193
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+controls.js
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+b15d7a73fdf2a4e88fe2a99c10156f9f
+2008-07-25T04:47:47.559265Z
+16
+ben
+

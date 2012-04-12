@@ -1,0 +1,64 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/activerecord/test/migrations/duplicate
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+1_people_have_last_names.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+a20fc47ca8dc17c8985575c00c9a4319
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+2_we_need_reminders.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+568adc3c065fc3ca56b355b676e5fb68
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+3_foo.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+31b2c77e121b728d107251cbae066011
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+3_innocent_jointable.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+dc7faab20220214b138dbb3a1527613b
+2008-07-25T04:47:47.559265Z
+16
+ben
+

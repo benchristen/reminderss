@@ -1,0 +1,88 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/gems/vpim-0.619/lib/vpim/property
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+recurrence.rb
+file
+
+
+
+
+2008-07-25T00:53:23.000000Z
+426d563f3fd258fc234c41af39ec586f
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+priority.rb
+file
+
+
+
+
+2008-07-25T00:53:23.000000Z
+b628068de3984026a014e98f5d2bdbdf
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+common.rb
+file
+
+
+
+
+2008-07-25T00:53:23.000000Z
+154633495ef2fbe18426c7ee6c1f3aa2
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+location.rb
+file
+
+
+
+
+2008-07-25T00:53:23.000000Z
+31c357f0f6ab409406f71b509bb2c103
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+base.rb
+file
+
+
+
+
+2008-07-25T00:53:23.000000Z
+7020c7f0136be2e48e9f9c2693a4f3a5
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+resources.rb
+file
+
+
+
+
+2008-07-25T00:53:23.000000Z
+98f1d97246c4ff9f084d356f97829027
+2008-07-25T04:47:47.559265Z
+16
+ben
+

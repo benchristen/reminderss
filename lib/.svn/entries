@@ -1,0 +1,19 @@
+8
+
+dir
+1
+http://svn.monathecat.com/reminderss/lib
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-17T06:49:58.961398Z
+1
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+tasks
+dir
+

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>File: README</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <link rel="stylesheet" href="../../../.././rdoc-style.css" type="text/css" media="screen" />
+  <script type="text/javascript">
+  // <![CDATA[
+
+  function popupCode( url ) {
+    window.open(url, "Code", "resizable=yes,scrollbars=yes,toolbar=no,status=no,height=150,width=400")
+  }
+
+  function toggleCode( id ) {
+    if ( document.getElementById )
+      elem = document.getElementById( id );
+    else if ( document.all )
+      elem = eval( "document.all." + id );
+    else
+      return false;
+
+    elemStyle = elem.style;
+    
+    if ( elemStyle.display != "block" ) {
+      elemStyle.display = "block"
+    } else {
+      elemStyle.display = "none"
+    }
+
+    return true;
+  }
+  
+  // Make codeblocks hidden by default
+  document.writeln( "<style type=\"text/css\">div.method-source-code { display: none }</style>" )
+  
+  // ]]>
+  </script>
+
+</head>
+<body>
+
+
+
+  <div id="fileHeader">
+    <h1>README</h1>
+    <table class="header-table">
+    <tr class="top-aligned-row">
+      <td><strong>Path:</strong></td>
+      <td>vendor/plugins/open_id_authentication/README
+      </td>
+    </tr>
+    <tr class="top-aligned-row">
+      <td><strong>Last Update:</strong></td>
+      <td>Tue Jul 22 12:54:41 -0700 2008</td>
+    </tr>
+    </table>
+  </div>
+  <!-- banner header -->
+
+  <div id="bodyContent">
+
+
+
+  <div id="contextContent">
+
+    <div id="description">
+      <p>
+<a
+href="../../../../classes/OpenIdAuthentication.html">OpenIdAuthentication</a>
+</p>
+<h6>==============</h6>
+<p>
+Provides a thin wrapper around the excellent ruby-openid gem from JanRan.
+Be sure to install that first:
+</p>
+<pre>
+  gem install ruby-openid
+</pre>
+<p>
+To understand what OpenID is about and how it works, it helps to read the
+documentation for lib/openid/consumer.rb from that gem.
+</p>
+<p>
+The specification used is <a
+href="http://openid.net/specs/openid-authentication-2_0.html">openid.net/specs/openid-authentication-2_0.html</a>.
+</p>
+<p>
+Prerequisites
+</p>
+<h6>=======</h6>
+<p>
+OpenID authentication uses the session, so be sure that you haven&#8216;t
+turned that off. It also relies on a number of database tables to store the
+authentication keys. So you&#8216;ll have to run the migration to create
+these before you get started:
+</p>
+<pre>
+  rake open_id_authentication:db:create
+</pre>
+<p>
+Alternatively, you can use the file-based store, which just relies on on
+tmp/openids being present in RAILS_ROOT. But be aware that this store only
+works if you have a single application server. And it&#8216;s not safe to
+use across NFS. It&#8216;s recommended that you use the database store if
+at all possible. To use the file-based store, you&#8216;ll also have to add
+this line to your config/environment.rb:
+</p>
+<pre>
+  OpenIdAuthentication.store = :file
+</pre>
+<p>
+This particular plugin also relies on the fact that the authentication
+action allows for both POST and GET operations. If you&#8216;re using
+RESTful authentication, you&#8216;ll need to explicitly allow for this in
+your routes.rb.
+</p>
+<p>
+This plugin relies on Rails Edge revision 6317 or newer.
+</p>
+<p>
+Example
+</p>
+<h6>=</h6>
+<p>
+This example is just to meant to demonstrate how you could use OpenID
+authentication. You&#8216;ll might well want to add salted hash logins
+instead of plain text passwords and other requirements on top of this.
+Treat it as a starting point, not a destination.
+</p>
+<p>
+config/routes.rb
+</p>
+<pre>
+  map.open_id_complete 'session', :controller =&gt; &quot;sessions&quot;, :action =&gt; &quot;create&quot;, :requirements =&gt; { :method =&gt; :get }
+  map.resource :session
+</pre>
+<p>
+app/views/sessions/new.erb
+</p>
+<pre>
+  &lt;% form_tag(session_url) do %&gt;
+    &lt;p&gt;
+      &lt;label for=&quot;name&quot;&gt;Username:&lt;/label&gt;
+      &lt;%= text_field_tag &quot;name&quot; %&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;
+      &lt;label for=&quot;password&quot;&gt;Password:&lt;/label&gt;
+      &lt;%= password_field_tag %&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;
+      ...or use:
+    &lt;/p&gt;
+
+    &lt;p&gt;
+      &lt;label for=&quot;openid_url&quot;&gt;OpenID:&lt;/label&gt;
+      &lt;%= text_field_tag &quot;openid_url&quot; %&gt;
+    &lt;/p&gt;
+
+    &lt;p&gt;
+      &lt;%= submit_tag 'Sign in', :disable_with =&gt; &quot;Signing in&amp;hellip;&quot; %&gt;
+    &lt;/p&gt;
+  &lt;% end %&gt;
+</pre>
+<p>
+app/controllers/sessions_controller.rb
+</p>
+<pre>
+  class SessionsController &lt; ApplicationController
+    def create
+      if using_open_id?
+        open_id_authentication
+      else
+        password_authentication(params[:name], params[:password])
+      end
+    end
+
+    protected
+      def password_authentication(name, password)
+        if @current_user = @account.users.authenticate(params[:name], params[:password])
+          successful_login
+        else
+          failed_login &quot;Sorry, that username/password doesn't work&quot;
+        end
+      end
+
+      def open_id_authentication
+        authenticate_with_open_id do |result, identity_url|
+          if result.successful?
+            if @current_user = @account.users.find_by_identity_url(identity_url)
+              successful_login
+            else
+              failed_login &quot;Sorry, no user by that identity URL exists (#{identity_url})&quot;
+            end
+          else
+            failed_login result.message
+          end
+        end
+      end
+
+    private
+      def successful_login
+        session[:user_id] = @current_user.id
+        redirect_to(root_url)
+      end
+
+      def failed_login(message)
+        flash[:error] = message
+        redirect_to(new_session_url)
+      end
+  end
+</pre>
+<p>
+If you&#8216;re fine with the result messages above and don&#8216;t need
+individual logic on a per-failure basis, you can collapse the case into a
+mere boolean:
+</p>
+<pre>
+    def open_id_authentication
+      authenticate_with_open_id do |result, identity_url|
+        if result.successful? &amp;&amp; @current_user = @account.users.find_by_identity_url(identity_url)
+          successful_login
+        else
+          failed_login(result.message || &quot;Sorry, no user by that identity URL exists (#{identity_url})&quot;)
+        end
+      end
+    end
+</pre>
+<p>
+Simple Registration OpenID Extension
+</p>
+<h6>==============================</h6>
+<p>
+Some OpenID Providers support this lightweight profile exchange protocol.
+See more: <a
+href="http://www.openidenabled.com/openid/simple-registration-extension">www.openidenabled.com/openid/simple-registration-extension</a>
+</p>
+<p>
+You can support it in your app by changing open_id_authentication
+</p>
+<pre>
+      def open_id_authentication(identity_url)
+        # Pass optional :required and :optional keys to specify what sreg fields you want.
+        # Be sure to yield registration, a third argument in the #authenticate_with_open_id block.
+        authenticate_with_open_id(identity_url,
+            :required =&gt; [ :nickname, :email ],
+            :optional =&gt; :fullname) do |status, identity_url, registration|
+          case status
+          when :missing
+            failed_login &quot;Sorry, the OpenID server couldn't be found&quot;
+          when :canceled
+            failed_login &quot;OpenID verification was canceled&quot;
+          when :failed
+            failed_login &quot;Sorry, the OpenID verification failed&quot;
+          when :successful
+            if @current_user = @account.users.find_by_identity_url(identity_url)
+              assign_registration_attributes!(registration)
+
+              if current_user.save
+                successful_login
+              else
+                failed_login &quot;Your OpenID profile registration failed: &quot; +
+                  @current_user.errors.full_messages.to_sentence
+              end
+            else
+              failed_login &quot;Sorry, no user by that identity URL exists&quot;
+            end
+          end
+        end
+      end
+
+      # registration is a hash containing the valid sreg keys given above
+      # use this to map them to fields of your user model
+      def assign_registration_attributes!(registration)
+        model_to_registration_mapping.each do |model_attribute, registration_attribute|
+          unless registration[registration_attribute].blank?
+            @current_user.send(&quot;#{model_attribute}=&quot;, registration[registration_attribute])
+          end
+        end
+      end
+
+      def model_to_registration_mapping
+        { :login =&gt; 'nickname', :email =&gt; 'email', :display_name =&gt; 'fullname' }
+      end
+</pre>
+<p>
+Copyright (c) 2007 David Heinemeier Hansson, released under the MIT license
+</p>
+
+    </div>
+
+
+   </div>
+
+
+  </div>
+
+
+    <!-- if includes -->
+
+    <div id="section">
+
+
+
+
+
+      
+
+
+    <!-- if method_list -->
+
+
+  </div>
+
+
+<div id="validator-badges">
+  <p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+</div>
+
+</body>
+</html>

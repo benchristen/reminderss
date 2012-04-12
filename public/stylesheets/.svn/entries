@@ -1,0 +1,40 @@
+8
+
+dir
+1
+http://svn.monathecat.com/reminderss/public/stylesheets
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-17T06:49:58.961398Z
+1
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+master.css
+file
+8
+
+
+
+2008-07-24T01:15:20.000000Z
+c4ddc16d985a8dbaa11be73911c5ed59
+2008-07-24T06:55:11.875467Z
+8
+ben
+
+scaffold.css
+file
+8
+
+
+
+2008-07-24T01:38:55.000000Z
+fb5ca4bbec458264a24aa4efe3d903d5
+2008-07-24T06:55:11.875467Z
+8
+ben
+

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/reminderss/!svn/ver/16/vendor/rails/actionpack/test/controller/session
+END
+cookie_store_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/reminderss/!svn/ver/16/vendor/rails/actionpack/test/controller/session/cookie_store_test.rb
+END
+mem_cache_store_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/reminderss/!svn/ver/16/vendor/rails/actionpack/test/controller/session/mem_cache_store_test.rb
+END

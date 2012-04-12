@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/reminderss/!svn/ver/1/config
+END
+routes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/reminderss/!svn/ver/28/config/routes.rb
+END
+database.yml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/reminderss/!svn/ver/13/config/database.yml
+END
+boot.rb
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/reminderss/!svn/ver/1/config/boot.rb
+END
+environment.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/reminderss/!svn/ver/6/config/environment.rb
+END
+deploy.rb
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/reminderss/!svn/ver/34/config/deploy.rb
+END

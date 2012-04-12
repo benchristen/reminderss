@@ -1,0 +1,19 @@
+8
+
+dir
+2
+http://svn.monathecat.com/reminderss/vendor/plugins
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-17T07:22:41.687948Z
+2
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+open_id_authentication
+dir
+

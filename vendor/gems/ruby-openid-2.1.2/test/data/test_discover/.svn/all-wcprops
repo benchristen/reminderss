@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_discover
+END
+yadis_2entries_idp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_discover/yadis_2entries_idp.xml
+END
+yadis_0entries.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_discover/yadis_0entries.xml
+END
+openid2_xrds_no_local_id.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_discover/openid2_xrds_no_local_id.xml
+END
+openid.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_discover/openid.html
+END
+yadis_another_delegate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_discover/yadis_another_delegate.xml
+END
+yadis_2_bad_local_id.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_discover/yadis_2_bad_local_id.xml
+END
+openid_and_yadis.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_discover/openid_and_yadis.html
+END
+yadis_idp_delegate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_discover/yadis_idp_delegate.xml
+END
+yadis_no_delegate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_discover/yadis_no_delegate.xml
+END
+openid2_xrds.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_discover/openid2_xrds.xml
+END
+openid_1_and_2_xrds_bad_delegate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_discover/openid_1_and_2_xrds_bad_delegate.xml
+END
+openid_1_and_2_xrds.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_discover/openid_1_and_2_xrds.xml
+END
+openid2.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_discover/openid2.html
+END
+yadis_idp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_discover/yadis_idp.xml
+END
+openid_1_and_2.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_discover/openid_1_and_2.html
+END
+openid_no_delegate.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_discover/openid_no_delegate.html
+END
+yadis_2entries_delegate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test_discover/yadis_2entries_delegate.xml
+END

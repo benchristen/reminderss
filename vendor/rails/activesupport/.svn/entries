@@ -1,0 +1,43 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/activesupport
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+lib
+dir
+
+CHANGELOG
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+17a1955945a86ccc6c35c965fa99dc72
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+README
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+6d5825d5dbcc4f0d3d158618837d7b23
+2008-07-25T04:47:47.559265Z
+16
+ben
+

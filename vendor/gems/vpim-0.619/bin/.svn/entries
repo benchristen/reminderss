@@ -1,0 +1,40 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/gems/vpim-0.619/bin
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+reminder
+file
+
+
+
+
+2008-07-25T00:53:23.000000Z
+9efb617ec5d27474f11c3677b0f842dd
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+rrule
+file
+
+
+
+
+2008-07-25T00:53:23.000000Z
+9936c8a85cf7aaa966ccd78a3c3d3061
+2008-07-25T04:47:47.559265Z
+16
+ben
+

@@ -1,0 +1,40 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/activerecord/lib/active_record/locking
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+optimistic.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+07c7b43f62895b7b944340b8cbbfc4b2
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+pessimistic.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+6735f6abf6f1a9cf789385ccf930979f
+2008-07-25T04:47:47.559265Z
+16
+ben
+

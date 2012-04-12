@@ -1,0 +1,22 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/actionmailer/lib/action_mailer/vendor
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+tmail-1.2.3
+dir
+
+text-format-0.6.3
+dir
+

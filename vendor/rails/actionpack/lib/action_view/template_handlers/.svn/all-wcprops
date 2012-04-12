@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/reminderss/!svn/ver/16/vendor/rails/actionpack/lib/action_view/template_handlers
+END
+rjs.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/reminderss/!svn/ver/16/vendor/rails/actionpack/lib/action_view/template_handlers/rjs.rb
+END
+builder.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/reminderss/!svn/ver/16/vendor/rails/actionpack/lib/action_view/template_handlers/builder.rb
+END
+compilable.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/reminderss/!svn/ver/16/vendor/rails/actionpack/lib/action_view/template_handlers/compilable.rb
+END
+erb.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/reminderss/!svn/ver/16/vendor/rails/actionpack/lib/action_view/template_handlers/erb.rb
+END

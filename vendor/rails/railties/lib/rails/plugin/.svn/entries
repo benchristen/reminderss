@@ -1,0 +1,40 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/railties/lib/rails/plugin
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+locator.rb
+file
+
+
+
+
+2008-07-25T00:43:33.000000Z
+528c3d5ff7cd353b5d404b4c7d84db6c
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+loader.rb
+file
+
+
+
+
+2008-07-25T00:43:33.000000Z
+ee3ea5996c9bcc9512a503f3df03e94f
+2008-07-25T04:47:47.559265Z
+16
+ben
+

@@ -1,0 +1,49 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/activerecord/test
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+schema
+dir
+
+assets
+dir
+
+connections
+dir
+
+models
+dir
+
+config.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+2cec417ec9966c979e5314731c20060f
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+fixtures
+dir
+
+migrations
+dir
+
+cases
+dir
+

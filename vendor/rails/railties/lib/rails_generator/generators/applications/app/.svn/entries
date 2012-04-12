@@ -1,0 +1,40 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/railties/lib/rails_generator/generators/applications/app
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+USAGE
+file
+
+
+
+
+2008-07-25T00:43:33.000000Z
+50ee57ad5ab666da2872537ddc4f6bbc
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+app_generator.rb
+file
+
+
+
+
+2008-07-25T00:43:33.000000Z
+675ad03acbdd2b1c89ad74bf5c0a29ea
+2008-07-25T04:47:47.559265Z
+16
+ben
+

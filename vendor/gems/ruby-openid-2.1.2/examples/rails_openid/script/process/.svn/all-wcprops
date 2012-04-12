@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/examples/rails_openid/script/process
+END
+spawner
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/examples/rails_openid/script/process/spawner
+END
+reaper
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/examples/rails_openid/script/process/reaper
+END
+spinner
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/examples/rails_openid/script/process/spinner
+END

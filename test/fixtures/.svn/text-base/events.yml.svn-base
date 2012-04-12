@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  url: MyString
+  description: MyText
+  dtstart: 2008-07-16 17:52:11
+  dtend: 2008-07-16 17:52:11
+  recurrence: MyString
+
+two:
+  url: MyString
+  description: MyText
+  dtstart: 2008-07-16 17:52:11
+  dtend: 2008-07-16 17:52:11
+  recurrence: MyString

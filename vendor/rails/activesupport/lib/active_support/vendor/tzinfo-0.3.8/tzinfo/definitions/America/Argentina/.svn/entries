@@ -1,0 +1,40 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/activesupport/lib/active_support/vendor/tzinfo-0.3.8/tzinfo/definitions/America/Argentina
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+Buenos_Aires.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+3796acb21b092816f0382044924cdb6b
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+San_Juan.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+bf333280ab3083552f46992bc0ca4a51
+2008-07-25T04:47:47.559265Z
+16
+ben
+

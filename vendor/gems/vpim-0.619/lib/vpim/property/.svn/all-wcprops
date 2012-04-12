@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/property
+END
+recurrence.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/property/recurrence.rb
+END
+priority.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/property/priority.rb
+END
+common.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/property/common.rb
+END
+location.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/property/location.rb
+END
+base.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/property/base.rb
+END
+resources.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/reminderss/!svn/ver/16/vendor/gems/vpim-0.619/lib/vpim/property/resources.rb
+END

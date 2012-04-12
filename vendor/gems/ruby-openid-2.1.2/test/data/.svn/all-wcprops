@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data
+END
+trustroot.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/trustroot.txt
+END
+linkparse.txt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/linkparse.txt
+END
+example-xrds.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/example-xrds.xml
+END
+dh.txt
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/dh.txt
+END
+urinorm.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/urinorm.txt
+END
+test1-discover.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test1-discover.txt
+END
+n2b64
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/n2b64
+END
+test1-parsehtml.txt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/test1-parsehtml.txt
+END
+accept.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/test/data/accept.txt
+END

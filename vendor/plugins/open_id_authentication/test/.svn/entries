@@ -1,0 +1,64 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/plugins/open_id_authentication/test
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+test_helper.rb
+file
+
+
+
+
+2008-07-22T19:54:43.000000Z
+8bb0fc5da6323541cdf5954a9da7c405
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+normalize_test.rb
+file
+
+
+
+
+2008-07-22T19:54:43.000000Z
+0950c7c4e007ebc1f1f9570956fd77a6
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+status_test.rb
+file
+
+
+
+
+2008-07-22T19:54:43.000000Z
+74393e08a9b5c7bc9e3493f42db1cb42
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+open_id_authentication_test.rb
+file
+
+
+
+
+2008-07-22T19:54:43.000000Z
+7cc5403d98caf71f5c132987277aeb1f
+2008-07-25T04:47:47.559265Z
+16
+ben
+

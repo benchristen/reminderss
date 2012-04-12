@@ -1,0 +1,43 @@
+<h1>Editing event</h1>
+
+<% form_for(@event) do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :url %><br />
+    <%= f.text_field :url %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </p>
+  <p>
+    <%= f.label :dtstart %><br />
+    <%= f.datetime_select :dtstart %>
+  </p>
+  <p>
+    <%= f.label :frequency %><br />
+    <%= select("event", "frequency", Event::FREQUENCIES, {:include_blank => true}) %>
+  </p>
+  <p>
+    <%= f.label :count %><br />
+    <%= f.text_field :count %>
+  </p>
+  <p>
+    <%= f.label :interval %><br />
+    <%= f.text_field :interval %>
+  </p>
+  <p>
+    <%= f.label :byday %><br />
+    <%= select("event", "byday", Event::BYDAYS, {:include_blank => true}) %>
+  </p>
+  <p>
+    <%= f.label :recurrence %><br />
+    <%= f.text_field :recurrence, :disabled => 'disabled' %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @event %> |
+<%= link_to 'Back', events_path %>

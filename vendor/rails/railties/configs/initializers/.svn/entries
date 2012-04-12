@@ -1,0 +1,52 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/railties/configs/initializers
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+inflections.rb
+file
+
+
+
+
+2008-07-25T00:43:33.000000Z
+46b85f9044d69b3d813d0957dae1b026
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+new_rails_defaults.rb
+file
+
+
+
+
+2008-07-25T00:43:33.000000Z
+c286e04f2aa51a60494afa62fa17291d
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+mime_types.rb
+file
+
+
+
+
+2008-07-25T00:43:33.000000Z
+53b1216a09d1bbd2863d09a5db5318f0
+2008-07-25T04:47:47.559265Z
+16
+ben
+

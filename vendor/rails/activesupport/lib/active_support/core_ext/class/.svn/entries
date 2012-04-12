@@ -1,0 +1,64 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/activesupport/lib/active_support/core_ext/class
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+removal.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+e05e7229ec48058093cdeaa9aedd62ef
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+attribute_accessors.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+a48db1558927dfa59b61edffe68b91c2
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+delegating_attributes.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+5dc62795c81e5b2897386f092405562e
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+inheritable_attributes.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+2f66f97781a2b3f9784bec533cc813f2
+2008-07-25T04:47:47.559265Z
+16
+ben
+

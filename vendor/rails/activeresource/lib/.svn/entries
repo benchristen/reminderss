@@ -1,0 +1,43 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/activeresource/lib
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+active_resource
+dir
+
+active_resource.rb
+file
+
+
+
+
+2008-07-25T00:43:32.000000Z
+77c2a7b6501467136ea8aa3a38ea0a61
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+activeresource.rb
+file
+
+
+
+
+2008-07-25T00:43:32.000000Z
+d819521da29be7e8da6b823cb34db6c0
+2008-07-25T04:47:47.559265Z
+16
+ben
+

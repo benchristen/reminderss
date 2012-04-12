@@ -1,0 +1,28 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/activerecord/test/connections/native_oracle
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+connection.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+2ee5eae639ef2036bea91acebef4648c
+2008-07-25T04:47:47.559265Z
+16
+ben
+

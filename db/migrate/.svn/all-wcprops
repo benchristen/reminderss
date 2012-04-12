@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/reminderss/!svn/ver/1/db/migrate
+END
+20080722195548_add_open_id_authentication_tables.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/reminderss/!svn/ver/6/db/migrate/20080722195548_add_open_id_authentication_tables.rb
+END
+20080722210232_create_sessions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/reminderss/!svn/ver/6/db/migrate/20080722210232_create_sessions.rb
+END
+20080717005211_create_events.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/reminderss/!svn/ver/1/db/migrate/20080717005211_create_events.rb
+END
+20080718200609_remove_dtend_from_event.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/reminderss/!svn/ver/6/db/migrate/20080718200609_remove_dtend_from_event.rb
+END
+20080723224503_add_user_id_to_event.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/reminderss/!svn/ver/16/db/migrate/20080723224503_add_user_id_to_event.rb
+END
+20080722211907_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/reminderss/!svn/ver/6/db/migrate/20080722211907_create_users.rb
+END

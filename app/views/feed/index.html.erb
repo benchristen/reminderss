@@ -1,0 +1,41 @@
+<div id="table-listing">
+<% unless params[:id].nil? %>
+<h3><%= params[:id] %>'s public events</h3>
+<ul>
+<li><a href="/feed/<%= params[:id] %>/rss.rss"><%= params[:id] %>'s RSS Feed</a></li>
+<li><a href="/feed/<%= params[:id] %>/ical.ics"><%= params[:id] %>'s iCal Feed</a></li>
+</ul>
+<% else %>
+<h3>all <%= @users.length %> users</h3>
+<ul>
+<% for user in @users %>
+<li><a href="/feed/<%= user.name %>"><%=h truncate(user.name, 20) %></a></li>
+<% end %>
+</ul>
+<h3>all <%= @events.length %> public events</h3>
+<% end %>
+<table cellpadding="0" cellspacing="0">
+<% for event in @events %>
+  <% form_for :event, event, :url => { :action => :create, :controller => :events } do |f| %>
+    <%= f.hidden_field(:url) %>
+    <%= f.hidden_field(:description) %>
+    <%= f.hidden_field(:dtstart) %>
+    <%= f.hidden_field(:recurrence) %>
+  <tr valign="top" class="<%= cycle('list-line-odd', 'list-line-even') %>"> 
+	<td colspan="2"><strong><%= 
+	auto_link(event.url) do |text|
+     truncate(text, 80)
+  	end
+	 %></strong></a></td>
+	 <td><%= f.submit "Copy to my events" %></td>
+	</tr>
+  <tr valign="top" class="<%= cycle('list-line-odd', 'list-line-even') %>"> 
+
+    <td><%=h truncate(event.description.gsub(/<.*?>/,''), 60) %></td>
+    <td><%= event.dtstart.strftime("%m/%d/%Y %I:%M%p")	 %></td>
+    <td><%=h event.recurrence %></td>
+  </tr>
+<% end %>
+<% end %>
+</table>
+</div>

@@ -1,0 +1,26 @@
+<div id="table-listing">
+<h3>Hi!, <%= @current_user.name %>, here are your events</h3>
+<%= link_to 'Create a new event', new_event_path %>
+<table cellpadding="0" cellspacing="0">
+<% for event in @events %>
+  <tr valign="top" class="<%= cycle('list-line-odd', 'list-line-even') %>"> 
+	<td><strong><%= 
+	auto_link(event.url) do |text|
+     truncate(text, 30)
+  	end
+	 %></strong></a></td>
+    <td colspan="2"><%= link_to 'Show', event %> | <%= link_to 'Edit', edit_event_path(event) %> | <%= link_to 'Destroy', event, :confirm => 'Are you sure?', :method => :delete %></td>
+	</tr>
+  <tr valign="top" class="<%= cycle('list-line-odd', 'list-line-even') %>"> 
+
+    <td><%=h truncate(event.description.gsub(/<.*?>/,''), 60) %></td>
+    <td><%= event.dtstart.strftime("%m/%d/%Y %I:%M%p")	 %></td>
+    <td><%=h event.recurrence %></td>
+  </tr>
+<% end %>
+<% if @events.nil? or @events.count == 0 %>
+<div>No events?  You could start by <a href="/feed/benchristen">copying one of mine</a> or just <%= link_to 'add your own', new_event_path %>.</div>
+<% end %>
+</table>
+</div>
+<%= link_to 'Create a new event', new_event_path %>

@@ -1,0 +1,40 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/activesupport/lib/active_support/core_ext/integer
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+inflections.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+89f882c9257a415ed4150e0086d2af4c
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+even_odd.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+e7c0d338fcc7a9b60bdb8d74cfa77777
+2008-07-25T04:47:47.559265Z
+16
+ben
+

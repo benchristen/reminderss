@@ -1,0 +1,52 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/gems/ruby-openid-2.1.2/examples/rails_openid/config/environments
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+test.rb
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+b553140af60cd6cafda689f4c40becbc
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+development.rb
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+431c17d115f92ed60e319f41237f2c93
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+production.rb
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+dd355d04f28d0e39910db9262fbe8a1c
+2008-07-25T04:47:47.559265Z
+16
+ben
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>reminderss - <%= controller.controller_name %>: <%= controller.action_name %></title>
+  <% unless @current_user.nil? %>
+  <link rel="alternate" type="application/rss+xml" title="<%= @current_user.name %>'s reminders rss feed" href="/feed/<%= @current_user.name %>/rss.rss">
+  <% end %>
+  <%= stylesheet_link_tag 'master', 'scaffold' %>
+</head>
+<% if !@current_user.nil? and @current_user.admin? %>
+<body onLoad="javascript:pageTracker._setVar('admin_exclude_from_tracking');">
+<% else %>
+<body>
+<% end %>
+<div id="page">
+	<div id="sidebar">
+    <ul id="sidebar-items">
+      <% unless @current_user.nil? %>
+      <li>
+        <h3>Your Events</h3>
+        <ul class="links">
+          <li><a href="/events">add/edit Events</a></li>
+        </ul>
+      </li>
+    
+      <li>
+        <h3>Your Feeds</h3>
+        <ul class="links">
+         <li><a href="/feed/<%= @current_user.name %>/">Your Events</a></li>
+         <li><a href="/feed/<%= @current_user.name %>/rss.rss">Your RSS Feed</a></li>
+         <li><a href="/feed/<%= @current_user.name %>/ical.ics">Your iCal Feed</a></li>
+        </ul>
+      </li>
+      <li>
+        <h3>Your Account</h3>
+        <ul class="links">
+         <li><a href="/users/<%= @current_user.id %>/edit">edit/update account</a></li>
+        </ul>
+      </li>
+      <% end %>
+      <li>
+        <h3>Bookmarklet</h3>
+        <ul class="links">
+			<li>Drag the link below to your bookmarks toolbar</li>
+			<li><a href="javascript:(function(){open('http://reminderss.com/events/new?event_url='+encodeURIComponent(location.href)+'&event_description='+encodeURIComponent(document.title),'reminderss','toolbar=no,width=700,height=400')})()">reminderss this!</a></li>
+        </ul>
+      </li>
+      <li>
+        <h3>Login and Registration</h3>
+        <ul class="links">
+        <% if @current_user.nil? %>
+          <li><%= link_to "Login/Register", new_session_path %></li>
+        <% else %>
+          <li><%= link_to "Logout", logout_path %></li>
+        <% end %>
+        </ul>
+      </li>
+    </ul>
+	</div>
+	<div id="content">
+		<div id="header">  
+		  <a href="/index"><img src="/images/reminderss.png" height=100px width=100px style="float:left;margin:0 20px 0 10px" border="0"></a>
+          <h1>reminderss!</h1>
+		  <h3>retro browsing for the rss reader era</h3>
+		  <h5>and a project to help me learn Ruby on Rails</h5>	
+
+		</div>
+		<div id="yield">
+			<p style="color: green"><%= flash[:notice] %></p>
+				<%= yield  %>
+		</div>
+	</div>
+	<div id="footer">reminderss &copy; 2008 - super alpha - your data may be deleted, use at your own risk</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-74714-5");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

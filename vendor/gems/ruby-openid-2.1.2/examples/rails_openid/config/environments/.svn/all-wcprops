@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/examples/rails_openid/config/environments
+END
+test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/examples/rails_openid/config/environments/test.rb
+END
+development.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/examples/rails_openid/config/environments/development.rb
+END
+production.rb
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/reminderss/!svn/ver/16/vendor/gems/ruby-openid-2.1.2/examples/rails_openid/config/environments/production.rb
+END

@@ -1,0 +1,52 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/gems/ruby-openid-2.1.2/lib/hmac
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+sha2.rb
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+1eac2831c349134d4c227c577802caa1
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+hmac.rb
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+aedc822a3d2ca57a8908e76951942ba6
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+sha1.rb
+file
+
+
+
+
+2008-07-25T00:54:29.000000Z
+ea4170efa492633dcd675b0977419f0b
+2008-07-25T04:47:47.559265Z
+16
+ben
+

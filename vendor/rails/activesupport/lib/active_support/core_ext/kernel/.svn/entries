@@ -1,0 +1,76 @@
+8
+
+dir
+16
+http://svn.monathecat.com/reminderss/vendor/rails/activesupport/lib/active_support/core_ext/kernel
+http://svn.monathecat.com/reminderss
+
+
+
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+
+svn:special svn:externals svn:needs-lock
+
+requires.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+a5c9952f81268cee5835ea6578a424f7
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+daemonizing.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+aa53079271a90e5f3f8f1c5e88da2a7e
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+debugger.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+a168cc57de28e63f28cd9495115cd287
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+reporting.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+d964ba169919eaf24fe9b33f95b263d8
+2008-07-25T04:47:47.559265Z
+16
+ben
+
+agnostics.rb
+file
+
+
+
+
+2008-07-25T00:43:31.000000Z
+83999ea00aeb8b51a1aa5e312571ac2a
+2008-07-25T04:47:47.559265Z
+16
+ben
+

@@ -1,0 +1,18 @@
+<h1>Listing users</h1>
+<div id="table-listing">
+<table cellpadding="3" cellspacing="0">
+<% @users.each_with_index do |user, index| %>
+<tr valign="top" class="<%= cycle('list-line-odd', 'list-line-even') %>"> 
+    <td><%= index %></td>
+    <td><a href="/feed/<%= user.name %>"><%=h truncate(user.name, 20) %></a></td>
+    <td><%=h truncate(user.identity_url, 30) %></td>
+    <td><%=h truncate(user.email, 20) %></td>
+    <td><%= link_to 'Show', user %> | <%= link_to 'Edit', edit_user_path(user) %> | <%= link_to 'Destroy', user, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New user', new_user_path %>
+
